@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entendendo DOM</title>
+    <style>
+        body {
+            background-color: rgb(48, 43, 133);
+            color: white;
+            font: normal 18pt arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Estudando DOM</h1>
+    <p>Resultado: </p>
+    <div>Clique aqui</div>
+
+    <script>
+        var p = window.document.getElementsByTagName('p')[0]
+        window.document.write(p.innerText)
+    </script>
+</body>
+</html>
